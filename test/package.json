@@ -1,0 +1,14 @@
+{
+  "name": "testing",
+  "version": "0.0.0",
+  "description": "Integration Testing",
+  "license": "Apache-2.0",
+  "dependencies": {
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber.js --format json:cucumber-report.json"
+  },
+  "devDependencies": {
+    "cucumber": "^3.1.0"
+  }
+}

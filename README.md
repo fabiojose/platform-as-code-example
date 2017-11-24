@@ -1,2 +1,18 @@
-# platform-as-code-example
-Platform as Code - Example
+# apigateway-app-node6-terraform
+
+API Gateway Terraform DSL
+
+# Terraform
+
+Terraform DSL
+
+# Plan 
+
+`terraform plan`
+
+# Apply
+
+`terraform apply`
+
+# Prueba de lo workshop
+
