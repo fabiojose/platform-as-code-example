@@ -1,4 +1,4 @@
-# apigateway-app-node6-terraform
+# platform-as-code-example
 
 API Gateway Terraform DSL
 
@@ -13,6 +13,4 @@ Terraform DSL
 # Apply
 
 `terraform apply`
-
-# Prueba de lo workshop
 
