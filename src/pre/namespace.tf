@@ -1,10 +1,10 @@
-resource "kubernetes_namespace" "oss-uat" {
+resource "kubernetes_namespace" "oss-pre" {
   metadata {
-    name = "oss-uat"
+    name = "oss-pre"
     
     labels {
       acronym = "oss"
-      env     = "uat"
+      env     = "pre"
     }
 
     annotations {

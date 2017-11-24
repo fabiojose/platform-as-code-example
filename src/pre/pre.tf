@@ -1,7 +1,7 @@
 {
   "variable": {
     "env": {
-      "default": "uat"
+      "default": "pre"
     }
   }
 }
