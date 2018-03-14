@@ -2,6 +2,9 @@ pipeline {
   /* run in any agent (a.k.a. node executor) */
   agent any
 
+  /* SET THESE HERE JUST TO TEST */
+  env.GIT_BRANCH = 'master'
+  
   stages {
     stage('Setup') {
       steps {
