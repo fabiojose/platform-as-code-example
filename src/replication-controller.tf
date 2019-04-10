@@ -108,14 +108,6 @@ resource "kubernetes_replication_controller" "apigateway" {
           }
         ]
       }
-      volume = [
-        {
-          name = "apigateway-volume-1"
-          secret {
-            secret_name = "${kubernetes_secret.apigateway-apidef.metadata.0.name}"
-          }
-        }
-      ]
     }
   }
 }
